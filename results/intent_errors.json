@@ -1,0 +1,42 @@
+[
+  {
+    "text": "i am looking for apparels",
+    "intent": "apparel_search",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.5081335306167603
+    }
+  },
+  {
+    "text": "show me some apparels",
+    "intent": "apparel_search",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.3952135145664215
+    }
+  },
+  {
+    "text": "i need assistance with apparels",
+    "intent": "apparel_search",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.4638890326023102
+    }
+  },
+  {
+    "text": "help me with some apparels",
+    "intent": "apparel_search",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.276252418756485
+    }
+  },
+  {
+    "text": "where to look for apparels",
+    "intent": "apparel_search",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.45539402961730957
+    }
+  }
+]
