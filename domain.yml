@@ -1,0 +1,61 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - thank
+  - bot_challenge
+  - product_search
+  - inform_user_type
+  - inform_product_type
+  # - inform_color_preference
+
+entities:
+  - product_type
+  - user_type
+  - color_type
+
+slots:
+  product_type:
+    type: text
+  user_type:
+    type: text
+  color_type:
+    type: text
+
+actions:
+  - action_product_search
+
+responses:
+  utter_greet:
+  - text: "Hi! How can I help you?"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_thank:
+  - text: "You're welcome!"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_ask_product_type:
+  - text: "Please enter any product type, such as shirt/pants/shorts/shoes..."
+
+  utter_ask_user_type:
+  - text: "Please enter any user type, such as men/women/boys/girls"
+
+  # utter_ask_color_preference:
+  # - text: "Please enter any color preference such as red/blue/black..."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: false #true
